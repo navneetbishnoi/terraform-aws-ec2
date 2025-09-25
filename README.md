@@ -107,7 +107,7 @@ module "spot-ec2" {
 ```
 
 ## Examples
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/navneetbishnoi/terraform-aws-ec2/tree/main/example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [example](https://github.com/navneetbishnoi/terraform-aws-ec2/tree/main/example) directory within this repository.
 
 ## License
 This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/navneetbishnoi/terraform-aws-ec2/blob/master/LICENSE) file for more details.
