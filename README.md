@@ -122,44 +122,44 @@ Replace **MIT** and **navneetbishnoi** with the appropriate license and your inf
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.8.5 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 6.5.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 6.13.0 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | 4.1.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.5.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 6.13.0 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | 4.1.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/navneetbishnoi/terraform-aws-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/navneetbishnoi/terraform-aws-labels.git | v1.0.4 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [aws_ebs_volume.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/ebs_volume) | resource |
-| [aws_eip.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/eip) | resource |
-| [aws_iam_instance_profile.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/iam_instance_profile) | resource |
-| [aws_instance.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/instance) | resource |
-| [aws_key_pair.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/key_pair) | resource |
-| [aws_kms_alias.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/kms_alias) | resource |
-| [aws_kms_key.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/kms_key) | resource |
-| [aws_route53_record.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/route53_record) | resource |
-| [aws_security_group.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/security_group) | resource |
-| [aws_security_group_rule.egress_ipv4](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/security_group_rule) | resource |
-| [aws_security_group_rule.egress_ipv6](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/security_group_rule) | resource |
-| [aws_security_group_rule.ingress](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/security_group_rule) | resource |
-| [aws_security_group_rule.ssh_ingress](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/security_group_rule) | resource |
-| [aws_spot_instance_request.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/spot_instance_request) | resource |
-| [aws_volume_attachment.default](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/resources/volume_attachment) | resource |
+| [aws_ebs_volume.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ebs_volume) | resource |
+| [aws_eip.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) | resource |
+| [aws_iam_instance_profile.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_instance_profile) | resource |
+| [aws_instance.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) | resource |
+| [aws_key_pair.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair) | resource |
+| [aws_kms_alias.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_alias) | resource |
+| [aws_kms_key.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_key) | resource |
+| [aws_route53_record.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
+| [aws_security_group.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
+| [aws_security_group_rule.egress_ipv4](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule) | resource |
+| [aws_security_group_rule.egress_ipv6](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule) | resource |
+| [aws_security_group_rule.ingress](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule) | resource |
+| [aws_security_group_rule.ssh_ingress](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule) | resource |
+| [aws_spot_instance_request.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/spot_instance_request) | resource |
+| [aws_volume_attachment.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/volume_attachment) | resource |
 | [tls_private_key.default](https://registry.terraform.io/providers/hashicorp/tls/4.1.0/docs/resources/private_key) | resource |
-| [aws_ami.ubuntu](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/data-sources/ami) | data source |
-| [aws_iam_policy_document.kms](https://registry.terraform.io/providers/hashicorp/aws/6.5.0/docs/data-sources/iam_policy_document) | data source |
+| [aws_ami.ubuntu](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
+| [aws_iam_policy_document.kms](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
 
 ## Inputs
 

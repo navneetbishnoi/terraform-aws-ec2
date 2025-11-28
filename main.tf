@@ -2,14 +2,17 @@
 ## Labels module callled that will be used for naming and tags.
 ##==================================================================================
 module "labels" {
-  source      = "git::https://github.com/navneetbishnoi/terraform-aws-labels.git?ref=v1.0.0"
+  source      = "git::https://github.com/navneetbishnoi/terraform-aws-labels.git?ref=v1.0.4"
   name        = var.name
   repository  = var.repository
   environment = var.environment
   managedby   = var.managedby
   label_order = var.label_order
+  extra_tags = {
+    Owner      = "navneetbishnoi"
+    CostCenter = "Finance"
+  }
 }
-
 
 locals {
   ebs_iops = var.ebs_volume_type == "io1" || var.ebs_volume_type == "io2" || var.ebs_volume_type == "gp3" ? var.ebs_iops : 0
